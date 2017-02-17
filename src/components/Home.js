@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, Dimensions } from 'react-native';
 
 class Home extends Component {
   render() {
@@ -15,6 +15,8 @@ class Home extends Component {
 
 const styles = {
   contentStyle: {
+    height: Dimensions.get('window').height,
+    width: Dimensions.get('window').width,
     justifyContent: 'center',
     alignItems: 'center',
   },
