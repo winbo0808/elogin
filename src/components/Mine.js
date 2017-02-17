@@ -39,7 +39,6 @@ class Mine extends Component {
         <Text style={styles.msgTextStyle}>
           {this.props.msg}
         </Text>
-
         <CardSection>
           {this.renderButton()}
         </CardSection>
