@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { View, Dimensions, TouchableOpacity, Text } from 'react-native';
 import { connect } from 'react-redux';
-import Mine from './Mine';
-import Home from './Home';
-import { CardSection } from './common';
-import { mainSwitchHome, mainSwitchMine } from '../actions';
+import Mine from './components/Mine';
+import Home from './components/Home';
+import { CardSection } from './components/common';
+import { mainSwitchHome, mainSwitchMine } from './actions';
 
 class Main extends Component {
   componentWillMount() {
